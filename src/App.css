@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --color1: #082032;
+  --color2: #2c394b;
+  --color3: #2c394b;
+  --color4: #df5030;
+  --color5: #fff;
+  --color6: #ddd;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul li {
+  list-style: none;
+}
+
+body {
+  background-color: var(--color5);
+  overflow-x: hidden;
+}
+
+.App {
+  width: 90%;
+  margin: 100px auto;
+  padding: 20px;
+}
